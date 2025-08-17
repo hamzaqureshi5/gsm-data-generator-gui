@@ -3,9 +3,8 @@ import sys
 from PyQt6.QtWidgets import QApplication
 
 # from core.exception.exceptions import NoSettingsFilePresent, NoTemplateFilePresent
-from gui import *
+from .gui import *
 
-# paths = ["settings.json", "operators/zong/template.json"]
 paths = ["settings.json"]
 
 
@@ -29,7 +28,7 @@ def run():
     try:
         # if files_exist(paths):
         if True:
-            from gui import MainWindow
+            from .gui import MainWindow
 
             app = QApplication(sys.argv)
             credentials = {"name": "admin", "privileges": "admin"}
