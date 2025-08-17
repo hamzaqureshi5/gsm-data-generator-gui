@@ -1,10 +1,8 @@
-# from gui.forms import Ui_Dialog as input_ui
-# from gui.forms.df_ui import Ui_Dialog as input_ui
-from ..forms import input_ui as input_ui
 from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QApplication
 from PyQt6.QtWidgets import QTableWidgetItem, QDialog
 from ..forms import output_ui as output_ui
+from ..forms import input_ui as input_ui
 
 
 # =================================#
